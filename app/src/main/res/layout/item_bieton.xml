@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_ngayviet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="20/07/2023"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/back_item_bieton"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/txt_dieu1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:Tôi rất biết ơn "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_dieu2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:Tôi rất biết ơn "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_dieu3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:Tôi rất biết ơn "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_dieu4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:Tôi rất biết ơn "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txt_dieu5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1:Tôi rất biết ơn "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="app_bieton">Biết ơn mỗi ngày</string>
+    <string name="app_hoatdong">Bước chân mỗi này</string>
+    <string name="app_anuong">Sức khỏe ăn uống</string>
+    <string name="app_thongtin">Tài khoản</string>
+
+    <string name="app_dong">ton</string>
+    <string name="app_mo">duy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_homnay">Hôm nay</string>
+    <string name="txt_thangnay">Tháng này</string>
+</resources>

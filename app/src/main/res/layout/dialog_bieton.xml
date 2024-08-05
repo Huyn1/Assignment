@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hay viết biết ơn"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_dieu1"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Điều 1" />
+
+    <EditText
+        android:id="@+id/txt_dieu2"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Điều 2" />
+
+    <EditText
+        android:id="@+id/txt_dieu3"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Điều 3" />
+
+    <EditText
+        android:id="@+id/txt_dieu4"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Điều 4" />
+
+    <EditText
+        android:id="@+id/txt_dieu5"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:hint="Điều 5" />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        />
+
+</LinearLayout>

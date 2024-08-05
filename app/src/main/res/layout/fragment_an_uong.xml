@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".navfragment.AnUongFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/background_shape">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cân Nặng:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/edt_cannngau"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/edit_text_background"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chiều Cao:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/edt_chieucaoan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:background="@drawable/edit_text_background"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_tinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tính"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/txt_BMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chỉ số BMI:  "
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtLoaiBeo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loại béo"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtNenAn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn nên ăn"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</ScrollView>
